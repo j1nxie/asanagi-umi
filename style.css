@@ -73,3 +73,43 @@ a:link {
 a:visited {
     color: inherit;
 }
+
+@media screen and (max-width: 1024px) {
+
+    html,
+    body {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    html,
+    body {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    html,
+    body {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    html,
+    body {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
