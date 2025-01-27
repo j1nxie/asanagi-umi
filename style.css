@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap");
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-size: 30px;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+#main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    ;
+    transition-duration: 0.5s;
+    transition-property: background-color, color;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#switcher {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#jp-title {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+}
+
+.navigation-bar {
+    width: 100%;
+    z-index: 100;
+    position: absolute;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    font-size: 18px;
+    padding: 1rem;
+    text-align: end;
+}
+
+svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+a:link {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
